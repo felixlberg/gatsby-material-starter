@@ -39,7 +39,7 @@ const config = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2019. Material User" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2019. underground.consulting" // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
