@@ -1,9 +1,9 @@
 const config = {
-  siteTitle: "Gatsby Material Starter", // Site title.
-  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
+  siteTitle: "Felix Langenberg", // Site title.
+  siteTitleShort: "FL", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Langenberg Webdesign", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
+  siteUrl: " https://felixlberg.github.io/gatsby-material-starter", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
@@ -14,8 +14,8 @@ const config = {
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Material User", // Username to display in the author segment.
-  userEmail: "MaterialUser@example.com", // Email used for RSS feed's author segment
+  userName: "Felix", // Username to display in the author segment.
+  userEmail: "felix.lberg@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
@@ -25,7 +25,7 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
+      url: "https://github.com/felixlberg/gatsby-material-starter",
       iconClassName: "fa fa-github"
     },
     {
@@ -35,7 +35,7 @@ const config = {
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:felix.lberg@gmail.com",
       iconClassName: "fa fa-envelope"
     }
   ],
