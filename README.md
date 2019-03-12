@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea32eb52-daaa-4bab-a375-2098d6258538/deploy-status)](https://app.netlify.com/sites/clever-jones-ad5a66/deploys)
 [![Code Climate](https://codeclimate.com/github/Vagr9K/gatsby-material-starter/badges/gpa.svg)](https://codeclimate.com/github/Vagr9K/gatsby-material-starter)
 [![Issue Count](https://codeclimate.com/github/Vagr9K/gatsby-material-starter/badges/issue_count.svg)](https://codeclimate.com/github/Vagr9K/gatsby-material-starter)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820)](https://www.codacy.com/app/Vagr9K/gatsby-material-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-material-starter&utm_campaign=Badge_Grade)
