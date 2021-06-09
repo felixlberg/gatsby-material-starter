@@ -1,5 +1,5 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
@@ -20,7 +20,7 @@ export default class PostTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: true
+      mobile: true,
     };
     this.handleResize = this.handleResize.bind(this);
   }
@@ -53,9 +53,6 @@ export default class PostTemplate extends React.Component {
 
     if (!post.id) {
       post.id = slug;
-    }
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID;
     }
 
     const coverHeight = mobile ? 180 : 350;

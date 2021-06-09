@@ -17,11 +17,7 @@ class PostCover extends Component {
       )
         return true;
 
-      if (
-        fileNode.node.absolutePath.indexOf(
-          path.join("/", post.cover)
-        ) !== -1
-      )
+      if (fileNode.node.absolutePath.indexOf(path.join("/", post.cover)) !== -1)
         return true;
 
       return false;

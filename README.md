@@ -137,7 +137,6 @@ module.exports = {
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
   disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
-  postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Material User", // Username to display in the author segment.
@@ -151,20 +150,20 @@ module.exports = {
     {
       label: "GitHub",
       url: "https://github.com/Vagr9K/gatsby-material-starter",
-      iconClassName: "fa fa-github"
+      iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
+      iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
       url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
-    }
+      iconClassName: "fa fa-envelope",
+    },
   ],
-  copyright: "Copyright © 2019. Material User" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020. Material User", // Copyright string for the footer of the website and RSS feed.
 };
 ```
 
@@ -173,7 +172,7 @@ You can also optionally set `pathPrefix`:
 ```js
 module.exports = {
   // Note: it must *not* have a trailing slash.
-  pathPrefix: "/gatsby-material-starter" // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
 };
 ```
 
@@ -207,3 +206,7 @@ $md-primary-color: $md-grey-400;
 $md-secondary-color: $md-red-800;
 $md-tertiary-color: $md-grey-300;
 ```
+
+# Author
+
+Ruben Harutyunyan ([@Vagr9K](https://twitter.com/Vagr9K))

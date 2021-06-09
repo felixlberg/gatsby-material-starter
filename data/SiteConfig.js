@@ -9,7 +9,7 @@ const config = {
   siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
-  siteGATrackingID: "", // Tracking code ID for google analytics.
+  siteGATrackingID: "faaaake", // Tracking code ID for google analytics.
   disqusShortname: "", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
